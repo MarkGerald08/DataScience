@@ -32,7 +32,7 @@ from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_sc
 
 
 # DATA ----
-data_path = r'C:\Users\USER\OneDrive\Desktop\dsFolder\MLPrac\Classification\vsScript\churn.csv'
+data_path = r'churn.csv'
 
 data = pd.read_csv(data_path)
 data.drop(columns=['Unnamed: 0'], inplace=True)
